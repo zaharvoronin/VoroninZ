@@ -1,0 +1,178 @@
+body {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    flex: 1;
+}
+
+.header {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-btn, .bag-btn {
+    width: 24px;
+    height: 26px;
+}
+
+.logo {
+    width: 50px;
+    height: 40px;
+}
+
+.product-content {
+    padding: 20px;
+}
+.rating {
+    color: gold;
+    font-size: 20px;
+}
+
+.price-section {
+    margin: 25px 0;
+}
+
+.price-label {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 38px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.size-section {
+    margin: 25px 0;
+}
+
+.size-label {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
+}
+
+.size {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(67, 72, 101);
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
+.size:hover{
+    border-color: #d5682e;
+    color: #d5682e;
+}
+.description {
+    margin: 30px 0;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.action-btn {
+    flex: 1;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.delete-btn {
+    background-color: #d5682e;
+    color: #333;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+h1{
+    text-align: center;
+    color: #31577a; ;
+}
+.kruzohki{
+    display: flex;
+    justify-content: center;
+}
+.kruzok{
+    width: 15px; 
+    height: 15px; 
+    background-color: #92a9be; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.kruzok-drugoi{
+    width: 15px; 
+    height: 15px; 
+    background-color: #0f2f4d; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.vse{
+    background-color: rgb(67, 72, 101);
+    padding: 25px;
+    border-radius: 20px 20px 0 0;
+    margin: 15px 0 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    color: white;
+    }
+.imge{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+}
+span.span{
+    color: #d5682e;
+}
+
